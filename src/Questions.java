@@ -25,7 +25,14 @@ public class Questions {
         questoes[1].opcaoE = "e) Converter em bitmap antes";
         questoes[1].correta = "b";
 
-
+        questoes[2] = new Ask();
+        questoes[2].pergunta = "3 - O que faz a ferramenta 'Forma' no CorelDRAW?";
+        questoes[2].opcaoA = "a) Adiciona novos elementos ao projeto";
+        questoes[2].opcaoB = "b) Edita pontos de nó em curvas e linhas";
+        questoes[2].opcaoC = "c) Cria formas geométricas automaticamente";
+        questoes[2].opcaoD = "d) Aplica efeitos de transparência";
+        questoes[2].opcaoE = "e) Mescla objetos vetoriais";
+        questoes[2].correta = "b";
 
         for (int i = 0; i < 15; i++) {
             questoes[i].escrevaQuestao();
