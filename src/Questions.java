@@ -70,6 +70,16 @@ public class Questions {
         questoes[6].opcaoE = "e) .svg";
         questoes[6].correta = "c";
 
+        questoes[7] = new Ask();
+        questoes[7].pergunta = "8 - Como posso alinhar objetos no CorelDRAW?";
+        questoes[7].opcaoA = "a) Usando o menu Organizar > Alinhar e Distribuir";
+        questoes[7].opcaoB = "b) Usando a ferramenta de Bézier";
+        questoes[7].opcaoC = "c) Criando uma camada de ajuste";
+        questoes[7].opcaoD = "d) Ajustando manualmente no teclado";
+        questoes[7].opcaoE = "e) Usando a ferramenta Transparência";
+        questoes[7].correta = "a";
+
+        
 
         for (int i = 0; i < 15; i++) {
             questoes[i].escrevaQuestao();
