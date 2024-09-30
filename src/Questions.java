@@ -61,7 +61,15 @@ public class Questions {
         questoes[5].opcaoE = "e) Alt + D";
         questoes[5].correta = "a";
 
-       
+        questoes[6] = new Ask();
+        questoes[6].pergunta = "7 - Qual é o formato padrão de arquivo para salvar projetos no CorelDRAW?";
+        questoes[6].opcaoA = "a) .ai";
+        questoes[6].opcaoB = "b) .eps";
+        questoes[6].opcaoC = "c) .cdr";
+        questoes[6].opcaoD = "d) .pdf";
+        questoes[6].opcaoE = "e) .svg";
+        questoes[6].correta = "c";
+
 
         for (int i = 0; i < 15; i++) {
             questoes[i].escrevaQuestao();
