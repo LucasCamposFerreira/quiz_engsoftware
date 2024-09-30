@@ -43,7 +43,15 @@ public class Questions {
         questoes[3].opcaoE = "e) Ferramenta de Transformação";
         questoes[3].correta = "d";
 
-        
+        questoes[4] = new Ask();
+        questoes[4].pergunta = "5 - Como posso criar um efeito de transparência em um objeto no CorelDRAW?";
+        questoes[4].opcaoA = "a) Aplicando a ferramenta de Preenchimento Gradiente";
+        questoes[4].opcaoB = "b) Usando a ferramenta Transparência";
+        questoes[4].opcaoC = "c) Aplicando a ferramenta PowerTRACE";
+        questoes[4].opcaoD = "d) Usando a ferramenta Contorno";
+        questoes[4].opcaoE = "e) Alterando o modo de mesclagem";
+        questoes[4].correta = "b";
+
 
         for (int i = 0; i < 15; i++) {
             questoes[i].escrevaQuestao();
