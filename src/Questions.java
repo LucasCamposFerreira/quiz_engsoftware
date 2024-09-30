@@ -52,6 +52,16 @@ public class Questions {
         questoes[4].opcaoE = "e) Alterando o modo de mesclagem";
         questoes[4].correta = "b";
 
+        questoes[5] = new Ask();
+        questoes[5].pergunta = "6 - Qual o atalho para duplicar um objeto no CorelDRAW?";
+        questoes[5].opcaoA = "a) Ctrl + D";
+        questoes[5].opcaoB = "b) Ctrl + C";
+        questoes[5].opcaoC = "c) Ctrl + V";
+        questoes[5].opcaoD = "d) Ctrl + X";
+        questoes[5].opcaoE = "e) Alt + D";
+        questoes[5].correta = "a";
+
+       
 
         for (int i = 0; i < 15; i++) {
             questoes[i].escrevaQuestao();
