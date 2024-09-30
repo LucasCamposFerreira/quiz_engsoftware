@@ -16,6 +16,16 @@ public class Questions {
         questoes[0].opcaoE = "e) Editando diretamente na barra de propriedades";
         questoes[0].correta = "d";
 
+        questoes[1] = new Ask();
+        questoes[1].pergunta = "2 - Qual a melhor maneira de converter uma imagem em vetor no CorelDRAW?";
+        questoes[1].opcaoA = "a) Desenhar manualmente por cima";
+        questoes[1].opcaoB = "b) Usar a ferramenta PowerTRACE";
+        questoes[1].opcaoC = "c) Usar a ferramenta Bézier";
+        questoes[1].opcaoD = "d) Aplicar a ferramenta Contorno";
+        questoes[1].opcaoE = "e) Converter em bitmap antes";
+        questoes[1].correta = "b";
+
+
 
         for (int i = 0; i < 15; i++) {
             questoes[i].escrevaQuestao();
