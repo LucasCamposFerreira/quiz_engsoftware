@@ -79,6 +79,15 @@ public class Questions {
         questoes[7].opcaoE = "e) Usando a ferramenta Transparência";
         questoes[7].correta = "a";
 
+        questoes[8] = new Ask();
+        questoes[8].pergunta = " 9 - Como posso exportar um projeto do CorelDRAW para um formato compatível com a web?";
+        questoes[8].opcaoA = "a) Salvar como .cdr";
+        questoes[8].opcaoB = "b) Exportar como .png ou .jpg";
+        questoes[8].opcaoC = "c) Salvar como .pdf";
+        questoes[8].opcaoD = "d) Usar a ferramenta de Impressão";
+        questoes[8].opcaoE = "e) Exportar como .ai";
+        questoes[8].correta = "b";
+
         
 
         for (int i = 0; i < 15; i++) {
