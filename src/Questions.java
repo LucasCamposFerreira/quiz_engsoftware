@@ -88,7 +88,16 @@ public class Questions {
         questoes[8].opcaoE = "e) Exportar como .ai";
         questoes[8].correta = "b";
 
-        
+        questoes[9] = new Ask();
+        questoes[9].pergunta = "10 - Qual ferramenta do CorelDRAW permite criar perspectivas em objetos?";
+        questoes[9].opcaoA = "a) Ferramenta de Contorno";
+        questoes[9].opcaoB = "b) Ferramenta de Extrusão";
+        questoes[9].opcaoC = "c) Ferramenta de Distorção";
+        questoes[9].opcaoD = "d) Ferramenta de Sombreamento";
+        questoes[9].opcaoE = "e) Ferramenta de Mesclagem";
+        questoes[9].correta = "b";
+
+
 
         for (int i = 0; i < 15; i++) {
             questoes[i].escrevaQuestao();
