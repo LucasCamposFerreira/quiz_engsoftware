@@ -97,6 +97,14 @@ public class Questions {
         questoes[9].opcaoE = "e) Ferramenta de Mesclagem";
         questoes[9].correta = "b";
 
+        questoes[10] = new Ask();
+        questoes[10].pergunta = "11 - Qual ferramenta no CorelDRAW permite adicionar sombras a objetos?";
+        questoes[10].opcaoA = "a) Ferramenta de Distorção";
+        questoes[10].opcaoB = "b) Ferramenta de Extrusão";
+        questoes[10].opcaoC = "c) Ferramenta de Sombreamento";
+        questoes[10].opcaoD = "d) Ferramenta de Transparência";
+        questoes[10].opcaoE = "e) Ferramenta de Mesclagem";
+        questoes[10].correta = "c";
 
 
         for (int i = 0; i < 15; i++) {
