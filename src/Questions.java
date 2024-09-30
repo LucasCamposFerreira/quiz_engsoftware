@@ -106,6 +106,41 @@ public class Questions {
         questoes[10].opcaoE = "e) Ferramenta de Mesclagem";
         questoes[10].correta = "c";
 
+        questoes[11] = new Ask();
+        questoes[11].pergunta = "12 - Como posso adicionar texto ao redor de um objeto circular no CorelDRAW?";
+        questoes[11].opcaoA = "a) Usando a ferramenta Texto Artístico";
+        questoes[11].opcaoB = "b) Usando a ferramenta Texto de Parágrafo";
+        questoes[11].opcaoC = "c) Aplicando a opção Ajustar Texto ao Caminho";
+        questoes[11].opcaoD = "d) Usando a ferramenta Contorno";
+        questoes[11].opcaoE = "e) Usando a ferramenta Mesclagem";
+        questoes[11].correta = "c";
+
+        questoes[12] = new Ask();
+        questoes[12].pergunta = "13 - Qual ferramenta no CorelDRAW permite criar padrões repetidos automaticamente?";
+        questoes[12].opcaoA = "a) Ferramenta Preenchimento Padrão";
+        questoes[12].opcaoB = "b) Ferramenta de Transparência";
+        questoes[12].opcaoC = "c) Ferramenta de Extrusão";
+        questoes[12].opcaoD = "d) Ferramenta Preenchimento Gradiente";
+        questoes[12].opcaoE = "e) Ferramenta de Distorção";
+        questoes[12].correta = "a";
+
+        questoes[13] = new Ask();
+        questoes[13].pergunta = "14 - Como posso bloquear um objeto no CorelDRAW para que ele não seja movido acidentalmente?";
+        questoes[13].opcaoA = "a) Usando a ferramenta Bloqueio";
+        questoes[13].opcaoB = "b) Aplicando a opção Organizar > Bloquear Objeto";
+        questoes[13].opcaoC = "c) Usando a ferramenta de Mesclagem";
+        questoes[13].opcaoD = "d) Editando na barra de propriedades";
+        questoes[13].opcaoE = "e) Usando a ferramenta de Transparência";
+        questoes[13].correta = "b";
+
+        questoes[14] = new Ask();
+        questoes[14].pergunta = "15 - Qual é o processo para alinhar múltiplos objetos centralmente no CorelDRAW?";
+        questoes[14].opcaoA = "a) Usar a ferramenta de Transparência";
+        questoes[14].opcaoB = "b) Usar o comando Organizar > Alinhar e Distribuir > Centralizar em Página";
+        questoes[14].opcaoC = "c) Aplicar o efeito de Extrusão";
+        questoes[14].opcaoD = "d) Usar a ferramenta de Contorno";
+        questoes[14].opcaoE = "e) Usar a ferramenta de Distorção";
+        questoes[14].correta = "b";
 
         for (int i = 0; i < 15; i++) {
             questoes[i].escrevaQuestao();
