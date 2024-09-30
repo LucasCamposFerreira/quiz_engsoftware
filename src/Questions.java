@@ -34,6 +34,17 @@ public class Questions {
         questoes[2].opcaoE = "e) Mescla objetos vetoriais";
         questoes[2].correta = "b";
 
+        questoes[3] = new Ask();
+        questoes[3].pergunta = "4 - Qual ferramenta no CorelDRAW permite mesclar objetos suavemente?";
+        questoes[3].opcaoA = "a) Ferramenta de Contorno";
+        questoes[3].opcaoB = "b) Ferramenta de Distorção";
+        questoes[3].opcaoC = "c) Ferramenta de Extrusão";
+        questoes[3].opcaoD = "d) Ferramenta de Mesclagem";
+        questoes[3].opcaoE = "e) Ferramenta de Transformação";
+        questoes[3].correta = "d";
+
+        
+
         for (int i = 0; i < 15; i++) {
             questoes[i].escrevaQuestao();
             String userResponse = questoes[i].leiaResposta();
